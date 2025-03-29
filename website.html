@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Room Booking</title>
+    <link rel="stylesheet" href="stylesnew.css">
+</head>
+<body>
+    <header>
+        <h1>Room Booking</h1>
+        <p>Find and book your perfect room</p>
+    </header>
+
+    <div class="booking-form">
+        <h2>Book a Room</h2>
+        <form action="/book" method="get">
+            <input type="text" name="location" placeholder="Enter location" required>
+            <input type="date" name="checkin" required>
+            <input type="date" name="checkout" required>
+            <button type="submit">Search Rooms</button>
+        </form>
+    </div>
+
+    <div class="room-list">
+        <h2>Available Rooms</h2>
+        <div class="room-card">
+            <h3>Deluxe Room</h3>
+            <p>Location: City Center</p>
+            <p>Price: 5000 Rs/night</p>
+            <button>Book Now</button>
+        </div>
+        <div class="room-card">
+            <h3>Standard Room</h3>
+            <p>Location: Suburbs</p>
+            <p>Price: 3500 Rs/night</p>
+            <button>Book Now</button>
+        </div>
+        <div class="room-card">
+            <h3>Suite</h3>
+            <p>Location: Beachside</p>
+            <p>Price: 7000 Rs/night</p>
+            <button>Book Now</button>
+        </div>
+    </div>
+</body>
+</html>
